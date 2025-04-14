@@ -1,0 +1,8 @@
+[package]
+name    = "repl-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+compiler    = { path = "../compiler" }
+directories = "6.0.0"
