@@ -1,0 +1,12 @@
+[package]
+name    = "aeris-repl-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "aeris"
+path = "src/main.rs"
+
+[dependencies]
+aeris-compiler = { path = "../compiler" }
+directories    = "6.0.0"

@@ -1,0 +1,10 @@
+[package]
+name    = "aeris-package-manager"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "apm"
+path = "src/main.rs"
+
+[dependencies]

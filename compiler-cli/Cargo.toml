@@ -1,0 +1,12 @@
+[package]
+name    = "aeris-compiler-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "aerisc"
+path = "src/main.rs"
+
+[dependencies]
+aeris-compiler = { path = "../compiler" }
+clap           = { version = "4", features = ["derive"] }
