@@ -1,0 +1,18 @@
+{
+  "name": "AERIS Dev Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "dev",
+  "workspaceFolder": "/aeris",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "docker.docker",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-containers",
+        "ms-azuretools.vscode-docker",
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}

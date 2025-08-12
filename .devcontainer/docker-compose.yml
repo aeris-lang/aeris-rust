@@ -1,0 +1,8 @@
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/aeris
+    command: sleep infinity
